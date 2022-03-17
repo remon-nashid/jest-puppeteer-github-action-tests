@@ -9,6 +9,6 @@ describe('App', () => {
   })
 
   it('should match a button with a "Learn React" text inside', async () => {
-    await expect(page).toMatchElement('.App-link', { text: 'Learn React' })
+    await expect(page).toMatchElement('.App-link', { text: 'Learn testing' })
   })
 })
